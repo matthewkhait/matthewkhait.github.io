@@ -1,2 +1,2 @@
-# customlogostudios.github.io
+matthewkhait.github.io
 Affordable custom logo design services
