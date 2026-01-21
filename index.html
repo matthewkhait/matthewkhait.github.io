@@ -1,0 +1,422 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Custom Logo Design — Fast, Original, Brand-Ready</title>
+  <meta name="description" content="Custom logo design for your business. Clear packages, fast turnaround, unlimited revisions options, and brand-ready files." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbarInner">
+      <a class="brand" href="#top" aria-label="Home">
+        <img src="assets/logo.svg" class="brandMark" alt="" />
+        <span class="brandName">Custom Logo Studio</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btnSmall" href="#order">Start</a>
+      </nav>
+
+      <button class="navToggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobileNav" id="mobileNav" hidden>
+      <a href="#work">Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="#order">Start</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container heroGrid">
+        <div class="heroCopy">
+          <div class="badge">Custom logos • Brand kits • Fast delivery</div>
+          <h1>Get a logo that looks <span class="accent">premium</span> and feels <span class="accent">you</span>.</h1>
+          <p class="lead">
+            We design original logos for startups, creators, and local businesses. Clear packages, friendly communication,
+            and brand-ready files you can use everywhere.
+          </p>
+
+          <div class="heroCtas">
+            <a class="btn" href="#order">Get a quote</a>
+            <a class="btn btnGhost" href="#pricing">View packages</a>
+          </div>
+
+          <div class="trust">
+            <div class="trustItem">
+              <div class="trustNumber">24–72h</div>
+              <div class="trustLabel">First concepts</div>
+            </div>
+            <div class="trustItem">
+              <div class="trustNumber">100%</div>
+              <div class="trustLabel">Original work</div>
+            </div>
+            <div class="trustItem">
+              <div class="trustNumber">Brand-ready</div>
+              <div class="trustLabel">Files + guidelines</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="heroCard" aria-label="Sample preview">
+          <div class="previewHeader">
+            <div class="dot dotRed"></div><div class="dot dotYellow"></div><div class="dot dotGreen"></div>
+            <div class="previewTitle">Preview</div>
+          </div>
+
+          <div class="mock">
+            <div class="mockLogo">
+              <div class="mockMark"></div>
+              <div class="mockText">
+                <div class="mockName">North Pine</div>
+                <div class="mockTag">outdoor coffee</div>
+              </div>
+            </div>
+
+            <div class="mockCards">
+              <div class="mockCard">
+                <div class="miniTitle">Color palette</div>
+                <div class="swatches">
+                  <span class="sw"></span><span class="sw"></span><span class="sw"></span><span class="sw"></span>
+                </div>
+              </div>
+              <div class="mockCard">
+                <div class="miniTitle">Deliverables</div>
+                <ul class="miniList">
+                  <li>SVG, PNG, PDF</li>
+                  <li>Light / dark versions</li>
+                  <li>Social icon set</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mockFooter">
+              <span class="pill">2 concepts</span>
+              <span class="pill">Revisions</span>
+              <span class="pill">File pack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Recent work</h2>
+          <p class="muted">Swap these placeholders with your real portfolio images or mockups.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="workCard">
+            <div class="workThumb t1" role="img" aria-label="Logo sample 1"></div>
+            <div class="workMeta">
+              <div class="workTitle">Modern wordmark</div>
+              <div class="workDesc">Clean, high-contrast, scalable.</div>
+            </div>
+          </article>
+
+          <article class="workCard">
+            <div class="workThumb t2" role="img" aria-label="Logo sample 2"></div>
+            <div class="workMeta">
+              <div class="workTitle">Emblem + icon</div>
+              <div class="workDesc">Perfect for packaging & badges.</div>
+            </div>
+          </article>
+
+          <article class="workCard">
+            <div class="workThumb t3" role="img" aria-label="Logo sample 3"></div>
+            <div class="workMeta">
+              <div class="workTitle">Playful mascot</div>
+              <div class="workDesc">Friendly, memorable, social-ready.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="pricing">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Pricing</h2>
+          <p class="muted">Transparent packages. Upgrade anytime.</p>
+        </div>
+
+        <div class="pricingGrid">
+          <article class="priceCard">
+            <div class="priceTop">
+              <h3>Starter</h3>
+              <div class="price">$15</div>
+              <div class="priceNote">Best for small projects</div>
+            </div>
+            <ul class="checkList">
+              <li>1 concept</li>
+              <li>2 revision rounds</li>
+              <li>PNG (transparent) + JPG</li>
+              <li>Delivery: 72h</li>
+            </ul>
+            <a class="btn btnGhost full" href="#order" data-plan="Starter">Choose Starter</a>
+          </article>
+
+          <article class="priceCard featured" aria-label="Most popular package">
+            <div class="ribbon">Most popular</div>
+            <div class="priceTop">
+              <h3>Pro</h3>
+              <div class="price">$25</div>
+              <div class="priceNote">Great for brands & creators</div>
+            </div>
+            <ul class="checkList">
+              <li>2 concepts</li>
+              <li>Unlimited revisions (14 days)</li>
+              <li>SVG + PNG + PDF</li>
+              <li>Light & dark versions</li>
+              <li>Social icon set</li>
+              <li>Delivery: 48h</li>
+            </ul>
+            <a class="btn full" href="#order" data-plan="Pro">Choose Pro</a>
+          </article>
+
+          <article class="priceCard">
+            <div class="priceTop">
+              <h3>Brand Kit</h3>
+              <div class="price">$40</div>
+              <div class="priceNote">Full identity essentials</div>
+            </div>
+            <ul class="checkList">
+              <li>3 concepts</li>
+              <li>Unlimited revisions (21 days)</li>
+              <li>Logo system (primary/alt/icon)</li>
+              <li>Color palette + typography</li>
+              <li>Mini brand guide (PDF)</li>
+              <li>Delivery: 24–48h</li>
+            </ul>
+            <a class="btn btnGhost full" href="#order" data-plan="Brand Kit">Choose Brand Kit</a>
+          </article>
+        </div>
+
+        <div class="noteBox">
+          <strong>Add-ons:</strong> Business card ($49), letterhead ($49), favicon pack ($29), extra concept ($79).
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>How it works</h2>
+          <p class="muted">Simple process. No drama.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="stepNum">1</div>
+            <div class="stepBody">
+              <div class="stepTitle">Tell us about your brand</div>
+              <div class="stepText">Pick a package and share name, style, and examples you like.</div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepNum">2</div>
+            <div class="stepBody">
+              <div class="stepTitle">We design concepts</div>
+              <div class="stepText">You’ll get initial logo concepts within 24–72 hours.</div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepNum">3</div>
+            <div class="stepBody">
+              <div class="stepTitle">Refine & approve</div>
+              <div class="stepText">We iterate based on feedback until it feels right.</div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepNum">4</div>
+            <div class="stepBody">
+              <div class="stepTitle">Receive brand-ready files</div>
+              <div class="stepText">Download your files and start using the logo everywhere.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="order">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Request a quote / start an order</h2>
+          <p class="muted">This form builds an email you can send (no backend required). You can later connect it to an API.</p>
+        </div>
+
+        <div class="orderGrid">
+          <form class="card form" id="orderForm">
+            <div class="fieldRow">
+              <label class="field">
+                <span>Full name</span>
+                <input name="fullName" autocomplete="name" placeholder="Jane Doe" required />
+              </label>
+              <label class="field">
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" placeholder="jane@company.com" required />
+              </label>
+            </div>
+
+            <div class="fieldRow">
+              <label class="field">
+                <span>Business / brand name</span>
+                <input name="brandName" placeholder="Acme Coffee" required />
+              </label>
+              <label class="field">
+                <span>Package</span>
+                <select name="package" id="packageSelect" required>
+                  <option value="" disabled selected>Select a package</option>
+                  <option>Starter</option>
+                  <option>Pro</option>
+                  <option>Brand Kit</option>
+                </select>
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Style direction</span>
+              <textarea name="style" rows="4" placeholder="Modern / minimal / luxury / playful… Include competitors and any reference links."></textarea>
+            </label>
+
+            <div class="fieldRow">
+              <label class="field">
+                <span>Colors (optional)</span>
+                <input name="colors" placeholder="Black + gold / pastel / any" />
+              </label>
+              <label class="field">
+                <span>Deadline (optional)</span>
+                <input name="deadline" placeholder="e.g., Friday" />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Anything else?</span>
+              <textarea name="notes" rows="4" placeholder="Tagline, audience, where the logo will be used, file needs, etc."></textarea>
+            </label>
+
+            <div class="formActions">
+              <button class="btn" type="submit">Generate email request</button>
+              <button class="btn btnGhost" type="button" id="copyBtn" disabled>Copy message</button>
+            </div>
+
+            <div class="result" id="result" hidden>
+              <div class="resultTop">
+                <strong>Your message is ready</strong>
+                <span class="muted">Tip: adjust the recipient email inside <code>js/app.js</code>.</span>
+              </div>
+              <textarea id="resultText" rows="10" readonly></textarea>
+              <div class="resultActions">
+                <a class="btn btnSmall" id="mailtoBtn" href="#">Open in email app</a>
+              </div>
+            </div>
+          </form>
+
+          <aside class="card side">
+            <h3>What happens after you submit?</h3>
+            <ul class="bullets">
+              <li>We reply with a short confirmation and timeline.</li>
+              <li>You’ll receive concepts based on your brief.</li>
+              <li>We refine until it fits your brand.</li>
+              <li>Final files are delivered in a download bundle.</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>Contact</h3>
+            <p class="muted">
+              Email: <span class="mono">hello@yourdomain.com</span><br/>
+              Hours: Mon–Fri, 10am–6pm
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>Guarantee</h3>
+            <p class="muted">
+              You own the final logo files. We provide clean exports and practical versions for real-world use.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>FAQ</h2>
+          <p class="muted">Quick answers to common questions.</p>
+        </div>
+
+        <div class="faq">
+          <details class="faqItem">
+            <summary>Do I own the logo?</summary>
+            <p>Yes — after final payment, you own the final logo files and can use them commercially.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>What files do I get?</summary>
+            <p>Depending on the package: PNG/JPG and usually SVG/PDF. Brand Kit includes a mini brand guide.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>Can you match a style I like?</summary>
+            <p>Yes. Share links to styles you like and we’ll use them as direction (not as a template).</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>What if I need more concepts?</summary>
+            <p>You can add extra concepts as an add-on or upgrade your package anytime.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footerInner">
+        <div class="footerBrand">
+          <img src="assets/logo.svg" class="brandMark" alt="" />
+          <div>
+            <div class="footerName">Custom Logo Studio</div>
+            <div class="muted">Logos that look sharp anywhere.</div>
+          </div>
+        </div>
+
+        <div class="footerLinks">
+          <a href="#work">Work</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#order">Start</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footerBottom muted">
+          © <span id="year"></span> Custom Logo Studio. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
